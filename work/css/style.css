@@ -173,6 +173,7 @@
     text-align: center;
     transition: 0.3s;
     width: 100%;
+    
 }
 
 .other-text {
@@ -200,4 +201,14 @@ input[type="checkbox" i] {
     position: relative;
     padding-left: 25px;
 }
+
+.gender_content {
+  display: none;
+}
+
+.gender_element input:checked + span:before {
+  background-color: #0170bf;
+  box-shadow: inset 0 0 0 4px #fbfbfb;
+}
+
 /* work */
